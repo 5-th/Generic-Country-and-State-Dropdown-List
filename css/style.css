@@ -1,0 +1,43 @@
+
+  input[type=text] {
+      margin: 5px;
+      padding: 5px;
+      outline: none;
+      width: 270px;
+      border: 1px solid #A9A9A9;
+      outline: none;
+      font: 14px/1 Geneva, Arial, Helvetica, sans-serif;
+  }
+
+  #state {
+      width: 270px;
+      font: 14px/1 Geneva, Arial, Helvetica, sans-serif;
+      margin: 5px;
+      padding: 4px;
+      border: 2px solid #A9A9A9;
+  }
+
+  #icon {
+      display: none; 
+      position: absolute; 
+      z-index: 99;
+  }
+
+  
+  #container {
+      display: none;
+      padding: 5px 0px 5px 5px;
+      position: absolute;
+      left: 0; top: 0;
+      border: 1px solid #A9A9A9;
+      z-index: 100;
+      background: #fff;
+      max-height: 250px;
+      overflow: auto;
+  }
+  
+  
+    #container div:hover {
+      cursor: pointer;
+  }
+  
